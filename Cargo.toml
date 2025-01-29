@@ -31,20 +31,20 @@ url = "2"
 anyhow = "1"
 chrono = { version = "0.4", default-features = false, features = ["clock", "serde"] }
 clap = { version = "4", features = ["deprecated", "derive", "env", "wrap_help"] }
-crossterm = "0.27"
-ego-tree = "0.9"
-rand = "0.8"
-ratatui = "0.26"
+crossterm = "0.28"
+ego-tree = "0.10"
+rand = "0.9"
+ratatui = "0.29"
 ratatui-binary-data-widget = { git = "https://github.com/EdJoPaTo/ratatui-binary-data-widget", branch = "main" }
 rmpv = { version = "1", features = ["with-serde"] }
 rumqttc = { version = "0.24", features = ["websocket"] }
-rustls = "0.22"
-rustls-native-certs = "0.7"
+rustls = "0.23"
+rustls-native-certs = "0.8"
 rustls-pemfile = "2"
 rustls-pki-types = "1"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
-tui-tree-widget = "0.20"
+tui-tree-widget = "0.23"
 unicode-width = "=0.1.12" # remove version pinning when https://github.com/ratatui-org/ratatui/pull/1226 is released
 url = "2"
 
